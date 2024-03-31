@@ -15,6 +15,14 @@ namespace RoomController.Controllers
             var i = 5;
             return Ok($"Listagem de todas as salas{i}");
         }
+        public IActionResult GetAllRooms2()
+        {
+            //apenas um teste
+            //mais um teste
+            //oi
+            var i = 5;
+            return Ok($"Listagem de todas as salas{i}");
+        }
 
         [HttpGet("{id}")]
         public IActionResult GetRoomById(int id)
