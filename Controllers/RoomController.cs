@@ -10,6 +10,8 @@ namespace RoomController.Controllers
         public IActionResult GetAllRooms()
         {
             //apenas um teste
+            //mais um teste
+            //oi
             return Ok("Listagem de todas as salas");
         }
 
