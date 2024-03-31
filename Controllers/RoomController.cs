@@ -18,6 +18,7 @@ namespace RoomController.Controllers
         {
             // Aqui você implementaria a lógica para obter uma sala específica por ID
             // Por enquanto, vamos retornar uma resposta simples com o ID da sala
+            //teste
             return Ok($"Detalhes da sala com o ID: {id}");
         }
 
