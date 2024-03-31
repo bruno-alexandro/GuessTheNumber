@@ -12,7 +12,7 @@ namespace RoomController.Controllers
             //apenas um teste
             //mais um teste
             //oi
-            var i = 3;
+            var i = 5;
             return Ok($"Listagem de todas as salas{i}");
         }
 
