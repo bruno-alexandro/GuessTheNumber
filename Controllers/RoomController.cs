@@ -12,7 +12,8 @@ namespace RoomController.Controllers
             //apenas um teste
             //mais um teste
             //oi
-            return Ok("Listagem de todas as salas");
+            var i = 1;
+            return Ok($"Listagem de todas as salas{i}");
         }
 
         [HttpGet("{id}")]
