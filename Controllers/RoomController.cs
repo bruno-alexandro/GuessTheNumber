@@ -9,8 +9,7 @@ namespace RoomController.Controllers
         [HttpGet]
         public IActionResult GetAllRooms()
         {
-            // Aqui você implementaria a lógica para obter todas as salas do seu sistema
-            // Por enquanto, vamos retornar uma resposta simples com uma mensagem
+            //apenas um teste
             return Ok("Listagem de todas as salas");
         }
 
