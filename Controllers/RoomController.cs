@@ -15,7 +15,7 @@ namespace RoomController.Controllers
             var i = 5;
             return Ok($"Listagem de todas as salas{i}");
         }
-        public IActionResult GetAllRooms2()
+        public IActionResult GetAllRooms23()
         {
             //apenas um teste
             //mais um teste
