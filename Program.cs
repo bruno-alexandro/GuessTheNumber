@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
-//uma altera��o denovo aham alou?
+//uma altera��o denovo aham alou? testando denovo
 
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
