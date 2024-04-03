@@ -6,7 +6,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 //uma altera��o denovo aham alou? testando denovo 
-// agora é isso
+// nova alteração nova 2
 
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
