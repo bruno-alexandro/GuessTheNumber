@@ -460,19 +460,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rafael\\.nuget\\packages\\": {}
+    "C:\\Users\\Rafael\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos\\GuessTheNumber\\GuessTheNumber.csproj",
+      "projectUniqueName": "C:\\Users\\Rafael\\Desktop\\aham\\teste\\GuessTheNumber\\GuessTheNumber.csproj",
       "projectName": "GuessTheNumber",
-      "projectPath": "E:\\Projetos\\GuessTheNumber\\GuessTheNumber.csproj",
-      "packagesPath": "C:\\Users\\rafael\\.nuget\\packages\\",
-      "outputPath": "E:\\Projetos\\GuessTheNumber\\obj\\",
+      "projectPath": "C:\\Users\\Rafael\\Desktop\\aham\\teste\\GuessTheNumber\\GuessTheNumber.csproj",
+      "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rafael\\Desktop\\aham\\teste\\GuessTheNumber\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rafael\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

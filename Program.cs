@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
-//uma alteração
+//uma alteraï¿½ï¿½o denovo aham alou? testando denovo
 
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
@@ -14,7 +14,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-//alteração 
+//alteraï¿½ï¿½o 
 app.UseHttpsRedirection();
 app.UseRouting();
 app.MapControllers();
