@@ -9,7 +9,7 @@ namespace RoomController.Controllers
         [HttpGet]
         public IActionResult GetAllRooms()
         {
-            return Ok($"Listagem de todas as salas{i}");
+            return Ok($"Listagem de todas as salas");
         }
 
         [HttpGet("{id}")]
