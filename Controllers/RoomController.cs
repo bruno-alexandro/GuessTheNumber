@@ -6,6 +6,7 @@ namespace RoomController.Controllers
     [Route("[controller]")]
     public class RoomController : ControllerBase
     {
+        private readonly RoomRepository _roomRepository = new RoomRepository();
         [HttpGet]
         public IActionResult GetAllRooms()
         {
@@ -21,6 +22,7 @@ namespace RoomController.Controllers
         [HttpPost]
         public IActionResult CreateRoom([FromBody] Room room)
         {
+            _roomRepository.Add(room);
             return Ok($"Sala criada com sucesso: {room.Name}");
         }
 
