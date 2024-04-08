@@ -1,12 +1,16 @@
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+
 public class Room
 {
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
-    public string ?Name { get; set;}
-    public List<Player>? Players { get; set;}
-    public List<Action>? Actions { get; set;}
+    [Column("Name")]
+    public string? Name { get; set; }
+    public List<Player>? Players { get; set; }
+    public List<Action>? Actions { get; set; }
     public Player? CurrentTurn { get; set; }
     public bool GameStarted { get; set; }
-
     public Room()
     {
         Players = new List<Player>();
@@ -14,11 +18,11 @@ public class Room
         GameStarted = false;
     }
 
-    public void NextTurn(){
+    public void NextTurn()
+    {
         if (CurrentTurn != null)
         {
-            
+            // Lógica para o próximo turno
         }
     }
-
 }

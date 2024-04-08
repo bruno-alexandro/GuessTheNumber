@@ -1,8 +1,13 @@
+using System.ComponentModel.DataAnnotations.Schema;
 public class Action
 {
-    public string Name { get; set; }
-    public Action(string name)
-    {
-        Name = name;
-    }
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int Id { get; set; }
+    [Column("Name")]
+    public string ?Name { get; set; }
+    [Column("RoomId")]
+    public int RoomId { get; set; }
+    [Column("PlayerId")]
+    public int PlayerId { get; set;}
+
 }
