@@ -12,6 +12,6 @@ public class RoomRepository : IRoomRepository
 
     public List<Room> Get()
     {
-        throw new NotImplementedException();
+        return _context.Rooms.ToList();
     }
 }
